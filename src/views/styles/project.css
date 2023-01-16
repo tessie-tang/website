@@ -1,0 +1,73 @@
+p {
+    text-align: left;
+}
+
+@media all and (max-width: 800px) {
+    .title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        line-height: 2.5rem;
+    }
+
+    .subtitle {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        line-height: 2.2rem;
+    }
+
+    .content {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .chapter {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .note {
+        font-weight: 500;
+        font-size: 0.8rem;
+        line-height: 2.2rem;
+    }
+}
+
+@media all and (min-width: 801px) {
+    .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .subtitle {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        line-height: 2.6rem;
+    }
+
+    .content {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 2.8rem;
+    }
+
+    .note {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 2.2rem;
+    }
+
+    .chapter {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
